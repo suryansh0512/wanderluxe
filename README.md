@@ -42,5 +42,4 @@ By default, the application will prompt the user to enter their API key via a se
 
 ## Author
 
-Suryansh Singh (3cse4)
-cs-2341380
+Suryansh Singh
