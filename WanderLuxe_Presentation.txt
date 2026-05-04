@@ -1,0 +1,111 @@
+# Presentation: WanderLuxe - AI Travel Planner
+Subject: Web Technologies Project
+
+---
+
+## Slide 1: Title Slide
+Title: WanderLuxe: AI-Powered Bespoke Travel Concierge
+Subtitle: A Modern Web Technologies Project
+Presented By: Suryansh Singh (3cse4)
+
+---
+
+## Slide 2: Introduction
+Title: What is WanderLuxe?
+Bullet Points:
+* A premium, single-page web application designed for luxury travel planning.
+* Uses Generative AI to act as a personal travel concierge.
+* Automatically generates day-by-day itineraries based on user preferences.
+* Replaces tedious travel research with an interactive, conversational interface.
+
+---
+
+## Slide 3: Problem Statement
+Title: The Challenge of Travel Planning
+Bullet Points:
+* Information Overload: Travelers spend hours browsing multiple sites to plan a single trip.
+* Lack of Personalization: Standard travel blogs don't cater to specific budgets (e.g., ₹75,000) or exact durations.
+* Poor User Experience: Traditional booking sites feel like spreadsheets rather than inspiring experiences.
+* Static Content: Travel plans are hard to adjust dynamically once created.
+
+---
+
+## Slide 4: Proposed Solution
+Title: The WanderLuxe Solution
+Bullet Points:
+* Conversational UI: A natural language chat interface to gather user requirements seamlessly.
+* Instant Generation: Uses AI to instantly compute travel logic and return a structured itinerary.
+* Dynamic Adjustments: Users can update their budget or days, and the AI will adapt the plan in real-time.
+* Luxury Aesthetic: A clean, editorial UI design to inspire trust and provide a premium feel.
+
+---
+
+## Slide 5: Technologies Used
+Title: Core Web Technologies (Frontend)
+Bullet Points:
+* HTML5: Semantic structuring of the application (Main content, Sidebar, Modals, Forms).
+* CSS3: Advanced styling using CSS Variables, Flexbox, CSS Grid, Glassmorphism effects, and Keyframe animations.
+* JavaScript (ES6+): 
+  * DOM Manipulation for dynamic UI updates.
+  * Asynchronous programming (async/await, fetch API) for handling network requests.
+  * LocalStorage for saving user preferences.
+* Third-Party Libraries: marked.js via CDN for parsing AI Markdown into HTML.
+
+---
+
+## Slide 6: Backend & API Integration
+Title: Generative AI Integration
+Bullet Points:
+* Architecture: Client-side rendering (Serverless frontend).
+* API Used: OpenRouter API / Google Gemini 2.0.
+* Data Format: Communication handled entirely via JSON payloads (RESTful API architecture).
+* System Prompting: The AI is pre-configured with a "System Instruction" to enforce JSON/Markdown table formatting and strict adherence to the Indian Rupee (₹) currency.
+
+---
+
+## Slide 7: Key Features
+Title: Application Highlights
+Bullet Points:
+* World Collection Grid: Clickable, visually appealing destination cards (Santorini, Kyoto, Maldives).
+* Dynamic Budgeting: Dedicated fields for Trip Duration and Budget (in ₹) that feed directly into the AI prompt.
+* Skyscanner Integration: Automatically extracts the generated destination and links the user to live flight data.
+* Print-Ready Itineraries: A custom print stylesheet to allow users to export their plans cleanly.
+
+---
+
+## Slide 8: UI / UX Design Principles
+Title: Designing for Luxury
+Bullet Points:
+* Color Palette: Alabaster White, Deep Slate, and Brushed Gold accents.
+* Typography: Mix of 'Playfair Display' (Serif for elegance) and 'Inter' (Sans-serif for readability).
+* Micro-interactions: Hover effects, shimmer loading states while the AI processes data, and a continuous airplane animation banner.
+* Responsive Design: Media queries ensure the split-screen layout adapts seamlessly to mobile devices.
+
+---
+
+## Slide 9: Future Scope
+Title: Future Enhancements
+Bullet Points:
+* Database Integration: Implement Node.js/MongoDB to allow users to save multiple trips and create accounts.
+* Live API Integrations: Connect to live hotel APIs (like Amadeus or Booking.com) for real-time pricing.
+* PDF Export: Use libraries like jsPDF for styled offline downloads.
+* Weather Widget: Show live weather forecasts for the generated destination using the OpenWeather API.
+
+---
+
+## Slide 10: Conclusion
+Title: Conclusion
+Bullet Points:
+* WanderLuxe demonstrates the power of combining modern vanilla Web Technologies (HTML/CSS/JS) with cutting-edge Generative AI.
+* It highlights how API integrations can transform a static webpage into an intelligent, dynamic application.
+
+---
+
+## Slide 11: Thank You
+(Center of the slide)
+# Thank You
+
+(Bottom Right Corner)
+Suryansh Singh
+3cse4
+cs-2341380
